@@ -30,8 +30,8 @@ Comprehensive C++ header for matrix calculations. This header provides a robust 
 
 ## Usage
 
-Include the matrix.h header in your C++ program.
-Utilize the provided functions and overloaded operators for various matrix operations.
+#### Include the matrix.h header in your C++ program.
+#### Utilize the provided functions and overloaded operators for various matrix operations.
 
 # Example: Main Usage Example
 ```cpp
@@ -55,21 +55,21 @@ int main() {
 ## Example: Get Order Example.
 ```cpp
 #include <iostream>
-#include "matrix.h"
+#include "matrix.h"    
 
 // using namespace linear_algebra;
 
 int main() {
     
     linear_algebra::matrix matrix1(3, 3); // Create a 3x3 double matrix
-    std::pair<int , int> order = matrix1.get_order(); // Return Of The Matrix.
-    // Do Whatever You Want With Order.
+    std::pair<int , int> order = matrix1.get_order(); // Return Order Of The Matrix.
+    // Do Whatever You Want With Matrix.
     return 0;
 }
 ```
 
 # Contribution
-Contributions to enhance the functionality or documentation of this library are welcome. Please feel free to submit pull requests or open issues for any bugs or feature requests.
+#### Contributions to enhance the functionality or documentation of this library are welcome. Please feel free to submit pull requests or open issues for any bugs or feature requests.
 
 # License
-This project is licensed under the GNU General Public License v 3.0- see the LICENSE file for details.
+#### This project is licensed under the GNU General Public License v 3.0- see the LICENSE file for details.
