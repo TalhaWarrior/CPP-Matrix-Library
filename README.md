@@ -1,5 +1,5 @@
 # C++ Matrix Library
-Comprehensive C++ header for matrix calculations. This header provides a robust set of tools for matrix manipulation and analysis, making it a valuable resource for C++ programmers working with matrices.
+### Comprehensive C++ header for matrix calculations. This header provides a robust set of tools for matrix manipulation and analysis, making it a valuable resource for C++ programmers working with matrices.
 
 ## Features
 #### System of Equations: Calculate the solution of a system of equations using the matrix inversion method.  
