@@ -24,7 +24,9 @@ Comprehensive C++ header for matrix calculations. This header provides a robust 
 #### Square Matrix Check: Determine if a matrix is square.  
 #### Symmetry Check: Determine if a matrix is symmetric.  
 #### Skew-Symmetry Check: Determine if a matrix is skew-symmetric.  
-### Note: The '==' , '+' , '-' and '*' operators are overloaded so that they can be used directly on matrices.
+
+## Note: 
+#### The '==' , '+' , '-' and '*' operators are overloaded so that they can be used directly on matrices.
 
 ## Usage
 
