@@ -267,21 +267,7 @@ namespace linear_algebra
 			return det;
 		}
 
-		matrix scalar_multiplication(double scalar)
-		{
-		   if(scalar > 0 || scalar < 0) {
-			for (int i = 0; i < matrices.size(); i++)
-			{
-				for (int j = 0; j < matrices[i].size(); j++)
-				{
-					matrices[i][j] *= scalar;
-				}
-			}
-			return *this;
-			}
-			return matrix();
-		}
-
+		
 		matrix inverse() const
 		{
 			if (!is_square() || determinant() == 0)
@@ -372,8 +358,57 @@ namespace linear_algebra
 			}
 			return resultantMatrix;
 		}
+		matrix operator * (double scalar)
+		{
+			if (scalar > 0 || scalar < 0) {
+				for (int i = 0; i < matrices.size(); i++)
+				{
+					for (int j = 0; j < matrices[i].size(); j++)
+					{
+						matrices[i][j] *= scalar;
+					}
+				}
+				return *this;
+			}
+			return matrix();
+		}
+		matrix operator += (const matrix& mat)
+		{
+			*this = *this + mat;
+			return *this;
+		}
 
-
+		matrix operator -= (const matrix& mat)
+		{
+			*this = *this - mat;
+			return  *this;
+		}
+		matrix operator *= (const matrix& mat)
+		{
+			*this = *this * mat;
+			return  *this;
+		}
+		matrix operator *= (double scalar)
+		{
+			*this = *this * scalar;
+			return *this;
+		}
+		
+		matrix operator / (double scalar)
+		{
+			if (scalar > 0 || scalar < 0) {
+				for (int i = 0; i < matrices.size(); i++)
+				{
+					for (int j = 0; j < matrices[i].size(); j++)
+					{
+						matrices[i][j] /= scalar;
+					}
+				}
+				return *this;
+			}
+			return matrix();
+		}
+		
 		matrix augment_with(const matrix& mat)
 		{
 			int r1 = get_rows();
@@ -504,7 +539,7 @@ namespace linear_algebra
 
 		bool is_symmetric()
 		{
-			if (*this == transposition())
+			if (*this == transpose())
 			{
 				return true;
 			}
@@ -513,23 +548,21 @@ namespace linear_algebra
 
 		bool is_skew_symmetric()
 		{
-			matrix res = transposition();
-			res.scalar_multiplication(-1);
+			matrix res = transpose();
+			res *= -1;
 			if (*this == res)
 			{
 				return true;
 			}
 			return false;
 		}
-		~matrix()
-		{
-			// do nothing.
-		}
+		~matrix() = default;
+		
 	};
 }
 
 
 /*
  * Copyright (c) by Muhammad Talha. All rights reserved.
- * MIT License
+ * GNU Public License v3.0
  * V1.0(stable) */
