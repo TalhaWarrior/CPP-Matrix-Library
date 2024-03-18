@@ -7,7 +7,9 @@ Comprehensive C++ header for matrix calculations. This header provides a robust 
 #### Determinant Calculation: Determine the determinant of a square matrix of order n-by-n.  
 #### Scalar Multiplication: Perform matrix multiplication with a non-zero scalar.  
 #### Dynamic Resizing: Resize a matrix even after declaration.  
-#### Printing: Print non-empty matrices and their orders.  
+#### Print Matrices: Print non-empty matrices.
+#### Print Order: Print Order Of Any Matrix. 
+#### Get Order: Get Order Of Matrix In Pair.
 #### Element Replacement: Replace elements using row and column positions of the existing element you want to replace.  
 #### Transpose Calculation: Compute the transpose of a matrix.  
 #### Validation: Check if a matrix is valid.  
@@ -29,7 +31,7 @@ Comprehensive C++ header for matrix calculations. This header provides a robust 
 Include the matrix.h header in your C++ program.
 Utilize the provided functions and overloaded operators for various matrix operations.
 
-# Example
+# Example: Main Usage Example
 ```cpp
 #include <iostream>
 #include "matrix.h"
@@ -44,6 +46,22 @@ int main() {
 
     // Perform other operations as needed
 
+    return 0;
+}
+```
+
+## Example: Get Order Example.
+```cpp
+#include <iostream>
+#include "matrix.h"
+
+// using namespace linear_algebra;
+
+int main() {
+    
+    linear_algebra::matrix matrix1(3, 3); // Create a 3x3 double matrix
+    std::pair<int , int> order = matrix1.get_order(); // Return Of The Matrix.
+    // Do Whatever You Want With Order.
     return 0;
 }
 ```
