@@ -1,7 +1,7 @@
 # C++ Matrix Library
 Comprehensive C++ header for matrix calculations. This header provides a robust set of tools for matrix manipulation and analysis, making it a valuable resource for C++ programmers working with matrices.
 
-#Features
+## Features
 System of Equations: Calculate the solution of a system of equations using the matrix inversion method.
 Matrix Inversion: Compute the inverse of a square matrix of order n-by-n.
 Determinant Calculation: Determine the determinant of a square matrix of order n-by-n.
@@ -22,15 +22,15 @@ Identity Matrix Check: Determine if a matrix is an identity matrix.
 Square Matrix Check: Determine if a matrix is square.
 Symmetry Check: Determine if a matrix is symmetric.
 Skew-Symmetry Check: Determine if a matrix is skew-symmetric.
-#Note: The '==' , '+' , '-' and '*' operators are overloaded so that they can be used directly on matrices.
+### Note: The '==' , '+' , '-' and '*' operators are overloaded so that they can be used directly on matrices.
 
-#Usage
+## Usage
 
 Include the matrix.h header in your C++ program.
 Utilize the provided functions and overloaded operators for various matrix operations.
 
-#Example
-
+# Example
+```cpp
 #include <iostream>
 #include "matrix.h"
 
@@ -46,9 +46,10 @@ int main() {
 
     return 0;
 }
+```
 
-#Contribution
+# Contribution
 Contributions to enhance the functionality or documentation of this library are welcome. Please feel free to submit pull requests or open issues for any bugs or feature requests.
 
-#License
-This project is licensed under the GNU Public License v 3.0- see the LICENSE file for details.
+# License
+This project is licensed under the GNU General Public License v 3.0- see the LICENSE file for details.
