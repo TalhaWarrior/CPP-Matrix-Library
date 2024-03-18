@@ -2,7 +2,7 @@
 Comprehensive C++ header for matrix calculations. This header provides a robust set of tools for matrix manipulation and analysis, making it a valuable resource for C++ programmers working with matrices.
 
 ## Features
-System of Equations: Calculate the solution of a system of equations using the matrix inversion method.
+> System of Equations: Calculate the solution of a system of equations using the matrix inversion method.
 Matrix Inversion: Compute the inverse of a square matrix of order n-by-n.
 Determinant Calculation: Determine the determinant of a square matrix of order n-by-n.
 Scalar Multiplication: Perform matrix multiplication with a non-zero scalar.
