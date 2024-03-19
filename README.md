@@ -104,10 +104,9 @@ int main() {
 #### If Someone Want To Contribute This Library To Work And Add More Features To This Header File Are Welcome.  
   
 ### For Contributions:  
-#### Email Me Through khankkhan123apsacs@gmail.com.  
+#### Email Me Through khankkhan123apsacs@gmail.com.
 #### FAQ: Why Not Pull Requests ?
-#### Answer:
-##### Because I Am New To Github And Git Will Understand Everything About Github Gradually.
+##### Answer: Because I Am New To Github And Git Will Understand Everything About Github Gradually.
 
 # License
 #### This project is licensed under the GNU General Public License v 3.0- see the LICENSE file for details.
