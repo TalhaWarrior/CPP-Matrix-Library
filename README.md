@@ -25,7 +25,7 @@
 #### Skew-Symmetry Check: Determine if a matrix is skew-symmetric.  
 
 ## Note: 
-#### 1) The '==' IOperator Is Overloaded For Element-Wise Comparison Of Two Matrices.
+#### 1) The '==' Operator Is Overloaded For Element-Wise Comparison Of Two Matrices.
 #### 2) The '+' and  '+=' Operators Are Overloaded For Addition Of Two Matrices Of Same Order.
 #### 3) The '-' and '-=' Operators Are Overloaded For Subtraction Of Two Matrices Of Same Order.
 #### 4) The '*' and '*=' Operators Are Overload For Multiplication Of Two Matrices Of Any Order If Confirmable.
