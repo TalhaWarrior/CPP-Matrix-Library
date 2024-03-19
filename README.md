@@ -1,7 +1,7 @@
-# C++ Matrix Library
+# C++ Matrix Library:
 ### Comprehensive C++ header for matrix calculations. This header provides a robust set of tools for matrix manipulation and analysis, making it a valuable resource for C++ programmers working with matrices.
 
-## Features
+## Features:
 #### System of Equations: Calculate the solution of a system of equations using the matrix inversion method.  
 #### Matrix Inversion: Compute the inverse of a square matrix of order n-by-n.  
 #### Determinant Calculation: Determine the determinant of a square matrix of order n-by-n.  
@@ -39,7 +39,9 @@
 #### Include the matrix.h header in your C++ program.
 #### Utilize the provided functions and overloaded operators for various matrix operations.
 
-# Example: Main Usage Example
+# Example Snippets:
+
+## 1) Main Usage Example.
 ```cpp
 #include <iostream>
 #include "matrix.h"
@@ -56,7 +58,7 @@ int main() {
 }
 ```
 
-## Example: Get Order Example.
+## 2) Get Order Example.
 ```cpp
 #include <iostream>
 #include "matrix.h"    
@@ -71,7 +73,7 @@ int main() {
     return 0;
 }
 ```
-## Example:  Usage Of Overloaded Operators.
+## 3) Usage Of Overloaded Operators.
 ```cpp
 #include <iostream>
 #include "matrix.h"    
@@ -98,8 +100,14 @@ int main() {
     return 0;
 }
 ```
-# Contribution
-#### Contributions to enhance the functionality or documentation of this library are welcome. Please feel free to submit pull requests or open issues for any bugs or feature requests.
+# Contributions:
+#### If Someone Want To Contribute This Library To Work And Add More Features To This Header File Are Welcome.  
+  
+### For Contributions:  
+#### Email Me Through khankkhan123apsacs@gmail.com.  
+#### FAQ: Why Not Pull Requests ?
+#### Answer:
+##### Because I Am New To Github And Git Will Understand Everything About Github Gradually.
 
 # License
 #### This project is licensed under the GNU General Public License v 3.0- see the LICENSE file for details.
