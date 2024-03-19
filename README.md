@@ -5,7 +5,8 @@
 #### System of Equations: Calculate the solution of a system of equations using the matrix inversion method.  
 #### Matrix Inversion: Compute the inverse of a square matrix of order n-by-n.  
 #### Determinant Calculation: Determine the determinant of a square matrix of order n-by-n.  
-#### Scalar Multiplication: Perform matrix multiplication with a non-zero scalar.  
+#### Scalar Multiplication: Perform element wise multiplication with a non-zero scalar using the '*' and '*=' operators.  
+#### Scalar Division: Perform element wise division with a non-zero scalar using the '/' and '/=' operators.  
 #### Print Matrices: Print non-empty matrices.
 #### Print Order: Print Order Of Any Matrix. 
 #### Get Order: Get Order Of Matrix In Pair.
@@ -13,8 +14,8 @@
 #### Transpose Calculation: Compute the transpose of a matrix.  
 #### Validation: Check if a matrix is valid.  
 #### Comparison: Perform element-by-element comparison using the == operator.  
-#### Matrix Addition and Subtraction: Perform addition and subtraction of matrices using the '+' and '-' operators.  
-#### Matrix Multiplication: Perform matrix multiplication by using the '*' operator.  
+#### Matrix Addition and Subtraction: Perform addition and subtraction of matrices using the '+' , '+=' , '-' , '-=' operators.  
+#### Matrix Multiplication: Perform matrix multiplication by using the '*' and '*=' operators.  
 #### Augmentation: Augment matrices with others of the same rows.  
 #### User Input: Fill matrices with user input.  
 #### Null Matrix Check: Determine if a matrix is null.  
