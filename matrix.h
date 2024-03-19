@@ -153,15 +153,6 @@ namespace linear_algebra
 			}
 		}
 
-		void resize(int rows, int columns)
-		{
-			matrices.resize(rows);
-			for (size_t i = 0; i < matrices.size(); i++)
-			{
-				matrices[i].resize(columns);
-			}
-		}
-
 		std::pair<int, int> get_order()
 		{
 			int rows = matrices.size();
@@ -409,6 +400,12 @@ namespace linear_algebra
 			return matrix();
 		}
 		
+		matrix operator /= (double scalar)
+		{
+			*this = *this / scalar;
+			return *this;
+		}
+		
 		matrix augment_with(const matrix& mat)
 		{
 			int r1 = get_rows();
@@ -442,32 +439,6 @@ namespace linear_algebra
 			return matrix();
 		}
 
-
-		void print_matrix()
-		{
-			for (size_t i = 0; i < matrices.size(); i++)
-			{
-				for (size_t j = 0; j < matrices[i].size(); j++)
-				{
-					std::cout << matrices[i][j] << "\t";
-				}
-				std::cout << std::endl;
-			}
-		}
-
-		void fill_by_user()
-		{
-			std::cout << "Assign Values To Your Matrix: \n\n";
-			for (size_t i = 0; i < matrices.size(); i++)
-			{
-				for (size_t j = 0; j < matrices[i].size(); j++)
-				{
-					std::cout << "Element At [" << i + 1 << "][" << j + 1 << "] = ";
-					std::cin >> matrices[i][j];
-					std::cout << std::endl;
-				}
-			}
-		}
 
 		void print_order()
 		{
@@ -556,9 +527,39 @@ namespace linear_algebra
 			}
 			return false;
 		}
+		friend  std::istream& operator >> (std::istream& CIN, matrix& m);
+		friend  std::ostream& operator << (std::ostream& COUT, matrix& m);
 		~matrix() = default;
 		
 	};
+
+	std::ostream& operator << (std::ostream& COUT, matrix& m)
+	{
+		for (size_t i = 0; i < m.matrices.size(); i++)
+		{
+			for (size_t j = 0; j < m.matrices[i].size(); j++)
+			{
+				COUT << m.matrices[i][j] << "\t";
+			}
+			COUT << std::endl;
+		}
+		return COUT;
+	}
+	std::istream& operator >> (std::istream& CIN, matrix& m)
+	{
+		std::cout << "Assign Values To Your Matrix: \n\n";
+		for (size_t i = 0; i < m.matrices.size(); i++)
+		{
+			for (size_t j = 0; j < m.matrices[i].size(); j++)
+			{
+				std::cout << "Element At [" << i + 1 << "][" << j + 1 << "] = ";
+				CIN >> m.matrices[i][j];
+				std::cout << std::endl;
+			}
+		}
+		return CIN;
+	}
+
 }
 
 
