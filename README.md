@@ -106,7 +106,7 @@ int main() {
 ### For Contributions:  
 #### Email Me Through khankkhan123apsacs@gmail.com.
 #### FAQ: Why Not Pull Requests ?
-##### Answer: Because I Am New To Github And Git Will Understand Everything About Github Gradually.
+##### Answer: Because I Am New To Github And Git And Constantly Learning Everything About Github Gradually.
 
 # License
 #### This project is licensed under the GNU General Public License v 3.0- see the LICENSE file for details.
