@@ -41,7 +41,7 @@
 
 # Example Snippets:
 
-## 1) Main Usage Example.
+## 1) Main Usage.
 ```cpp
 #include <iostream>
 #include "matrix.h"
@@ -58,7 +58,7 @@ int main() {
 }
 ```
 
-## 2) Get Order Example.
+## 2) Get Order.
 ```cpp
 #include <iostream>
 #include "matrix.h"    
