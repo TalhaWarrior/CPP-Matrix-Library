@@ -7,7 +7,7 @@
 #### Determinant Calculation: Determine the determinant of a square matrix of order n-by-n.  
 #### Scalar Multiplication: Perform element wise multiplication with a non-zero scalar using the '*' and '*=' operators.  
 #### Scalar Division: Perform element wise division with a non-zero scalar using the '/' and '/=' operators.  
-#### Print Matrices: Print non-empty matrices.
+#### Print Matrices: Print non-empty matrices using just '<<' operator.
 #### Print Order: Print Order Of Any Matrix. 
 #### Get Order: Get Order Of Matrix In Pair.
 #### Element Replacement: Replace elements using row and column positions of the existing element you want to replace.  
@@ -17,7 +17,7 @@
 #### Matrix Addition and Subtraction: Perform addition and subtraction of matrices using the '+' , '+=' , '-' , '-=' operators.  
 #### Matrix Multiplication: Perform matrix multiplication by using the '*' and '*=' operators.  
 #### Augmentation: Augment matrices with others of the same rows.  
-#### User Input: Fill matrices with user input.  
+#### User Input: Fill matrices with user input using just '>>' operator.  
 #### Null Matrix Check: Determine if a matrix is null.  
 #### Dimension Check: Check if a matrix is dimensionless (empty).  
 #### Identity Matrix Check: Determine if a matrix is an identity matrix.  
