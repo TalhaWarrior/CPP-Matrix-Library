@@ -51,8 +51,8 @@
 int main() {
     
     linear_algebra::matrix matrix1(3, 3); // Create a 3x3 double matrix
-    cin >> matrix1; // fill each place of element by user
-    cout << matrix1; // print matrix
+    std::cin >> matrix1; // fill each place of element by user
+    std::cout << matrix1; // print matrix
     // Perform other operations as needed
     return 0;
 }
