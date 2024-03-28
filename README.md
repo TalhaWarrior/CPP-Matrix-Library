@@ -29,8 +29,8 @@
 #### 1) The '==' Operator Is Overloaded For Element-Wise Comparison Of Two Matrices.
 #### 2) The '+' and  '+=' Operators Are Overloaded For Addition Of Two Matrices Of Same Order.
 #### 3) The '-' and '-=' Operators Are Overloaded For Subtraction Of Two Matrices Of Same Order.
-#### 4) The '*' and '*=' Operators Are Overload For Multiplication Of Two Matrices Of Any Order If Confirmable.
-#### 5) The '*' and '*=' Operators Are Overloaded For Element-Wise Multiplication With A Non-Zero Scalar.
+#### 4) The ' * ' and ' *= ' Operators Are Overload For Multiplication Of Two Matrices Of Any Order If Confirmable.
+#### 5) The ' * ' and ' *= ' Operators Are Overloaded For Element-Wise Multiplication With A Non-Zero Scalar.
 #### 6) The '/' and '/=' Is Overloaded For Element Wise Division By A Non-Zero Scalar.
 #### 7) The '<<' and '>>' Operators Are Overloaded For Direct I/O On Matrices.
 
