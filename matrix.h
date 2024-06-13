@@ -1,4 +1,6 @@
-#pragma once
+#ifndef MATRIX_H
+#define MATRIX_H
+
 #include <iostream> // for std::cout , std::cin , std::endl
 #include <vector> // for std::vector
 #include <utility> // std::pair and std::make_pair().
@@ -561,7 +563,7 @@ namespace linear_algebra
 	}
 
 }
-
+#endif
 
 /*
  * Copyright (c) by Muhammad Talha. All rights reserved.
